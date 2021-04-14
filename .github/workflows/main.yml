@@ -45,3 +45,9 @@ jobs:
       
       - name: Run tests
         run: npm test
+
+      - name: Run lint
+        run: npm lint
+      
+      - name: Run prettier
+        run: npm prettier
