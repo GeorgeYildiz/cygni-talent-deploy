@@ -41,7 +41,7 @@ jobs:
           node-version: "14"
       
       - name: Fix dependencies    
-      - run: npm ci
+        run: npm ci
       
       - name: Run tests
-      - run: npm test
+        run: npm test
