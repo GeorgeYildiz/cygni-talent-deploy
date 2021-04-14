@@ -7,7 +7,7 @@ function createServer(config = {}) {
     console.log(`Received request ${req.method.toUpperCase()} ${req.url}`);
     res.writeHead(200, "OK");
     res.write(
-      Buffer.from(`Hello World from george! Build number ${buildNumber}\n`)
+  Buffer.from(`Hello World from george! Build number ${buildNumber}\n`)
     );
     res.end();
   });
